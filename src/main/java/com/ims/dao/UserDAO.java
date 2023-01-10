@@ -17,18 +17,18 @@ public class UserDAO {
 
     public boolean checkLogin(String username, String password, String userType) {
 
-//        String query = "SELECT * FROM user WHERE username = '" + username + "' AND password = '" + password +
-//                "' AND type = '" + userType + "';";
-//        try {
-//            ResultSet rs = stmt.executeQuery(query);
-//            if (rs.next()) {
-//                return true;
-//            }
-//        }catch (SQLException e) {
-//            System.out.println("Login failed" + e.getMessage());
-//        }return false;
+        String query = "SELECT * FROM user WHERE username = '" + username + "' AND password = '" + password +
+                "' AND type = '" + userType + "';";
+        try {
+            ResultSet rs = stmt.executeQuery(query);
+            if (rs.next()) {
+                return true;
+            }
+        }catch (SQLException e) {
+            System.out.println("Login failed" + e.getMessage());
+        }return false;
 
-        return true;
+        //return true;
     }
 }
 
