@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.ims.ui.Report">
+  <grid id="27dc6" binding="report" layout-manager="GridLayoutManager" row-count="6" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="158" y="193" width="625" height="459"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="176f1" class="javax.swing.JLabel" binding="labelTitle">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="26" style="1"/>
+          <text value="Report"/>
+        </properties>
+      </component>
+      <component id="971da" class="javax.swing.JFormattedTextField" binding="formattedTextFieldEndDate">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="1" use-parent-layout="false">
+            <preferred-size width="60" height="30"/>
+            <maximum-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="6d733" class="javax.swing.JLabel" binding="labelOpenDate">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="From"/>
+        </properties>
+      </component>
+      <component id="a194d" class="javax.swing.JLabel" binding="labelPeriodRevenue">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Period Revenue"/>
+        </properties>
+      </component>
+      <component id="d7866" class="javax.swing.JFormattedTextField" binding="formattedTextFieldPeriodRecenue">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="193" height="50"/>
+            <maximum-size width="120" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="false"/>
+          <font size="20" style="1"/>
+        </properties>
+      </component>
+      <component id="6c1e3" class="javax.swing.JLabel" binding="labelPeriodCost">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <opaque value="false"/>
+          <text value="Period Cost"/>
+        </properties>
+      </component>
+      <component id="c27b6" class="javax.swing.JFormattedTextField" binding="formattedTextFieldPeriodCost">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="193" height="50"/>
+            <maximum-size width="120" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <editable value="false"/>
+          <font size="20" style="1"/>
+        </properties>
+      </component>
+      <component id="b7dcd" class="javax.swing.JLabel" binding="labelPeriodIncome">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Period Income"/>
+        </properties>
+      </component>
+      <component id="93402" class="javax.swing.JFormattedTextField" binding="formattedTextFieldPeriodIncome">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="193" height="50"/>
+            <maximum-size width="120" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <disabledTextColor color="-2093811"/>
+          <doubleBuffered value="true"/>
+          <editable value="false"/>
+          <font size="20" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="23207" class="javax.swing.JButton" binding="buttonSearchDate">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Search Period"/>
+        </properties>
+      </component>
+      <component id="78567" class="javax.swing.JLabel" binding="labelEndDate">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="To"/>
+        </properties>
+      </component>
+      <vspacer id="8d1b0">
+        <constraints>
+          <grid row="1" column="0" row-span="5" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="-1"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="e4257">
+        <constraints>
+          <grid row="1" column="5" row-span="5" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="-1"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="8f60c" class="javax.swing.JFormattedTextField" binding="formattedTextFieldOpenDate">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+            <maximum-size width="120" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+      </component>
+      <component id="e99ab" class="javax.swing.JButton" binding="buttonHome">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Back To Dashboard"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
